@@ -14,3 +14,6 @@ run_list 'mongo::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'mongo', path: '.'
+
+# cookbook for MongoDB
+cookbook 'sc-mongodb', path: '~> 3.0.0'
